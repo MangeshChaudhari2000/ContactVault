@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.scroll-smooth::-webkit-scrollbar {
+    width: 0; /* Hide scrollbar for Chrome, Safari and Opera */
+    background: transparent; /* Optional: Set background to transparent */
+  }
+  
+  .scroll-smooth {
+    -ms-overflow-style: none;  /* Hide scrollbar for Internet Explorer and Edge */
+    scrollbar-width: none;  /* Hide scrollbar for Firefox */
+    scroll-behavior: smooth;
+
+  }
+
+  .scroll-smooth {
+    position: relative; /* Needed for proper positioning */
+    overflow-y: scroll; /* Allow vertical scroll */
+  }
+  
